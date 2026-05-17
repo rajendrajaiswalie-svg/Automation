@@ -148,7 +148,7 @@ public class WireMockStubUtils {
                     .withStatus(200)
                     .withHeader("Content-Type", "application/json")
                     .withBody(gson.toJson(responseBody))
-                    .withRandomDelay(minDelayMs, maxDelayMs)
+                    .withFixedDelay(minDelayMs + (int)(Math.random() * (maxDelayMs - minDelayMs)))
                 )
         );
     }

@@ -16,7 +16,6 @@ public class WireMockTestConfig {
         return WireMockExtension.newInstance()
                 .options(wireMockConfig()
                     .dynamicPort()
-                    .notRequiringClientCertificate()
                     .disableRequestJournal()  // Improve performance
                 )
                 .configureStaticDsl(true)
@@ -30,7 +29,6 @@ public class WireMockTestConfig {
         return WireMockExtension.newInstance()
                 .options(wireMockConfig()
                     .port(port)
-                    .notRequiringClientCertificate()
                 )
                 .configureStaticDsl(true)
                 .build();
