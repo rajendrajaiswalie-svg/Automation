@@ -16,7 +16,6 @@ public class WireMockTestConfig {
         return WireMockExtension.newInstance()
                 .options(wireMockConfig()
                     .dynamicPort()
-                    .disableRequestJournal()  // Improve performance
                 )
                 .configureStaticDsl(true)
                 .build();

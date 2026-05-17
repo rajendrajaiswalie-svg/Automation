@@ -1,0 +1,16 @@
+com\automation\api\ApiClientTest$UserRequest.class
+com\automation\qa\model\TestSuite.class
+com\automation\config\WireMockTestConfig.class
+com\automation\qa\model\TestCase.class
+com\automation\qa\agent\QAAgent.class
+com\automation\qa\model\TestCase$TestStatus.class
+com\automation\qa\model\TestCase$TestPriority.class
+com\automation\api\ApiClientAdvancedTest.class
+com\automation\utils\WireMockStubUtils.class
+com\automation\qa\examples\QAAgentCodeExamplesTest.class
+com\automation\qa\examples\QAAgentPracticalExamplesTest.class
+com\automation\qa\agent\QAAgent$ExecutionSummary.class
+com\automation\qa\model\TestResult.class
+com\automation\api\ApiClientTest.class
+com\automation\api\ApiClientUtilsExampleTest.class
+com\automation\qa\agent\QAAgentTest.class

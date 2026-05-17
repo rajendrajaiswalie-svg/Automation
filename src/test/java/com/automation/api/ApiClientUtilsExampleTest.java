@@ -126,7 +126,7 @@ class ApiClientUtilsExampleTest {
 
         // Assert
         assertThat(response.statusCode).isEqualTo(200);
-        assertThat(response.body).contains("\"total\": 1");
+        assertThat(response.body).contains("\"total\":1");
     }
 
     @Test

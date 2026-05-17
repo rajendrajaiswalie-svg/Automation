@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.automation.qa.agent.QAAgentTest
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.418 s - in com.automation.qa.agent.QAAgentTest
